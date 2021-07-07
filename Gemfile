@@ -20,8 +20,8 @@ gem "json"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "github-pages"
+  gem "jekyll-feed", "~> 0.9", ">= 0.9.2"
+  gem "github-pages", ">= 177"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
